@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Valentine Letter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Aldrich&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Background music (hidden, starts muted then unmutes on first click) -->
+    <div id="youtube-player" class="youtube-audio" aria-hidden="true"></div>
+
+    <!-- Envelope Screen -->
+    <div id="envelope-container">
+      <img src="envelope.png" alt="Envelope" id="envelope" />
+      <p>To my Chị Mi</p>
+    </div>
+
+    <!-- Letter Screen -->
+    <div id="letter-container">
+      <div class="letter-window">
+        <h1 id="letter-title">Will you be my Valentine?</h1>
+
+        <img src="cat_heart.gif" class="cat" id="letter-cat" />
+
+        <div class="buttons" id="letter-buttons">
+          <img src="yes.png" class="btn yes-btn" alt="Yes" />
+
+          <div class="no-wrapper">
+            <img src="no.png" class="btn no-btn" alt="No" />
+          </div>
+        </div>
+
+        <p id="final-text" class="final-text" style="display: none">
+          <strong>heheheh chị là của emmmmm</strong><br />
+          Pet the cat then he will help chó deliver thư to u hehe
+        </p>
+      </div>
+    </div>
+
+    <!-- Letter image page (after clicking cat on final screen) -->
+    <div id="letter-image-container">
+      <div class="letter-image-wrap">
+        <img src="Lá thư tình từ mèo đen.png" alt="Lá thư tình từ mèo đen" class="letter-image" />
+        <div class="letter-image-text">
+          <p><strong>Thư gửi chị – người con gái mà em thương hơn tất cả những gì chị nghĩ…</strong></p>
+          <p>Em vừa nhận ra là… hình như em vẫn chưa yêu chị "tới max level" đâu á</p>
+          <p>Giật tít chút thôi kkk.</p>
+          <p>Nhưng mà thật đó, em mới nhận ra là tình yêu giống như chơi game vậy á, càng bên nhau lâu thì càng mở khóa thêm nhiều điều mới, càng ngày càng yêu sâu hơn nữa. Nên là sau này em sẽ luôn cố gắng để chị có thể cảm nhận được rằng em yêu chị nhiều hơn mỗi ngày nha.</p>
+          <p>Vậy mà mình yêu nhau chính thức cũng được 4 tháng rồi đó kkk. Dạo này em có hơi xuồng xã một chút (ờm thì nhiều chút), tại vì khi ở bên chị em luôn cảm thấy an toàn. Ở cạnh chị mọi thứ rất tự nhiên, nhẹ nhàng, vui vẻ và làm em hạnh phúc lắm.</p>
+          <p>Nhưng mà không vì vậy mà chị trong mắt em bớt cuốn hút hay thú vị đâu nha. Chị vẫn luôn xinh đẹp, rạng rỡ, vui tươi và hồn nhiên như những ngày đầu mình hẹn hò. Chỉ là bây giờ, em cảm thấy thoải mái với chị đến mức em có thể kể chị nghe bất cứ điều gì luôn á kkk.</p>
+          <p>Chị ơi, em cảm ơn chị rất nhiều vì đã xuất hiện trong cuộc đời em. Cảm ơn chị vì đã cho em biết thế nào là yêu và được yêu. Tương tự như những gì chị đã viết, em cảm ơn chị vì đã yêu em bằng tất cả sự kiên nhẫn, dịu dàng và yêu chiều của chị cho dù em lì như quỷ kkk. Em thật sự thấy mình may mắn nhất trên đời vì có được tình yêu của chị. Nên là em mong rằng em sẽ luôn đủ tỉnh táo để mang đến cho chị cảm giác an toàn, được yêu thương và được trân trọng.</p>
+          <p>Dù em biết tương lai sẽ còn nhiều khó khăn, nhưng em vẫn sẽ luôn yêu chị và đồng hành cùng chị. U are not alone, vì sẽ luôn có em ở đây.</p>
+          <p><strong>p/s:</strong> I love you so much, and I always will.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
